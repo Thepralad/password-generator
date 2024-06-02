@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    font-family:  sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    
 }
 body{
-    background-color: rgb(25, 52, 91);
+    background-color: #6B8A7A;
 }
 .container{
     display: flex;
@@ -15,12 +18,12 @@ body{
 }
 h1{
     font-size: 4rem;
-    color: white;
+    color: #DAD3BE;
 }
 .passwordField{
     width: 400px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: #DAD3BE;
     border-radius: 4px;
 }
 button{
@@ -35,7 +38,7 @@ button{
     font-weight: 100;
 }
 button:hover{
-    background-color: rgb(57, 123, 47);
+    background-color: #254336;
 }
 p{
     font-family: monospace;
@@ -44,6 +47,7 @@ p{
     
 }
 #randompassword{
-    color: rgb(71, 156, 58);
+    font-weight: 600;
+    color: #254336;
     text-decoration: underline;
 }
