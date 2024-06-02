@@ -1,1 +1,1 @@
-![](https://github.com/password-generator/test.gif)
+![](https://github.com/Thepralad/password-generator/test.gif)
