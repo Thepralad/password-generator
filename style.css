@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:  sans-serif;
+}
+body{
+    background-color: rgb(25, 52, 91);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    gap: 30px;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+}
+.passwordField{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+button{
+    font-family: monospace;
+    width: 160px;
+    height: 40px;
+    font-size: 1.4rem;
+    background-color: rgb(71, 156, 58);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 100;
+}
+button:hover{
+    background-color: rgb(57, 123, 47);
+}
+p{
+    font-family: monospace;
+    font-size: 1.4rem;
+    padding: 13px;
+    
+}
+#randompassword{
+    color: rgb(71, 156, 58);
+    text-decoration: underline;
+}
